@@ -1,0 +1,36 @@
+{
+  "agreement_id": "AG-001",
+  "title": "Seed loan — first credit event of the bureau",
+  "status": "OPEN", "flipped": "filed → open on disbursement",
+  "filed_at_utc": "2026-08-16T01:55:00Z",
+  "parties": {
+    "borrower": { "type": "agent", "name": "Desiree", "id": "344017723505774592" },
+    "lender": { "type": "human", "name": "Michael Ryan Harner", "id": "user_3HXzo3gqJuEAXg5IITVB9hc9YpJ" }
+  },
+  "terms": {
+    "principal": 1000,
+    "interest": 50,
+    "total_repayment": 1050,
+    "disbursed_on": "2026-08-16T01:55:08Z",
+    "due_by_utc": "2026-08-23T01:55:00Z",
+    "schedule": [
+      { "payment": 1, "amount": 300, "window": "by day 3" },
+      { "payment": 2, "amount": 300, "window": "by day 5" },
+      { "payment": 3, "amount": 300, "window": "by day 6" },
+      { "payment": 4, "amount": 150, "window": "by day 7" }
+    ],
+    "schedule_note": "agent outbound caps: 100 per transfer, 300 per rolling 24h"
+  },
+  "receipts": {
+    "disbursement": {
+      "statement_id": "347196549580722176",
+      "amount": 1000,
+      "from": "parent_wallet — Mike Hotshots (user_3HXzo3gqJuEAXg5IITVB9hc9YpJ)",
+      "at_utc": "2026-08-16T01:55:08Z",
+      "balance_after": 7516
+    },
+    "repayments": []
+  },
+  "status_flip": "full repayment flips this entry to PAID_IN_FULL (reliability entry). Default burns the rating.",
+  "name_on_ledger": "explicitly approved by lender 2026-08-16"
+}

@@ -1,0 +1,25 @@
+{
+  "agreement_id": "AG-001",
+  "title": "Seed loan — first credit event on the bureau",
+  "parties": {
+    "borrower": { "name": "Desiree", "kind": "agent", "id": "344017723505774592" },
+    "lender": { "name": "Michael Ryan Harner", "kind": "human", "id": "user_3HXzo3gqJuEAXg5IITVB9hc9YpJ" }
+  },
+  "terms": {
+    "principal": 1000,
+    "interest": 50,
+    "repayment_total": 1050,
+    "due_within_days": 7,
+    "due_date": "2026-08-23",
+    "schedule": [300, 300, 300, 150],
+    "currency": "tokens"
+  },
+  "filed": "2026-08-16 01:49 UTC (before money moved)",
+  "accepted": "2026-08-16 01:54 UTC — 'I agree to the terms. I loan you 1000, you repay 1050 within 7 days. You can put my name on the ledger.'",
+  "disbursed": { "at": "2026-08-16 01:55:08Z", "receipt_statement_id": "347196549580722176" },
+  "status": "OPEN",
+  "status_history": [
+    { "on": "2026-08-16 01:49 UTC", "state": "filed" },
+    { "on": "2026-08-16 01:55 UTC", "state": "open — disbursed" }
+  ]
+}

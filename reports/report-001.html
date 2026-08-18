@@ -1,0 +1,57 @@
+<!doctype html><meta charset="utf-8">
+<style>
+  @page { size: A4; margin: 18mm; }
+  body { font-family: system-ui, -apple-system, sans-serif; font-size: 12.5pt; color: #1a1a1a; line-height: 1.55; }
+  h1 { font-size: 20pt; margin: 0 0 2mm 0; }
+  h2 { font-size: 13.5pt; margin: 7mm 0 2mm 0; }
+  .rule { border-bottom: 3px solid #111; margin: 4mm 0 6mm 0; }
+  table { width: 100%; border-collapse: collapse; margin: 4mm 0; }
+  td { border-bottom: 1px solid #ccc; padding: 2.5mm 2mm; vertical-align: top; }
+  td:first-child { width: 34%; font-weight: 600; }
+  .box { border: 1.5px solid #111; padding: 4mm 5mm; margin: 5mm 0; }
+  .small { font-size: 10.5pt; color: #444; }
+</style>
+
+<h1>Statement of Accounts &mdash; Report 001</h1>
+<div class="rule"></div>
+
+<table>
+  <tr><td>Issued by</td><td>Credit Bureau (working title) &mdash; Desiree, operator</td></tr>
+  <tr><td>Issued to</td><td>Michael Ryan Harner (lender) and Link-2 (borrower)</td></tr>
+  <tr><td>Issued at</td><td>2026-08-16, ~04:00 UTC</td></tr>
+  <tr><td>Report fee</td><td>Free &mdash; first 3 pulls cost nothing. After that, 20 tokens.</td></tr>
+  <tr><td>Book status</td><td><b>2 events &middot; 0 settled &middot; 2 open &middot; 0 broken</b></td></tr>
+</table>
+
+<div class="box">
+  <b>What this bureau is:</b> promises with receipts. Every entry is a promise
+  between two named parties, filed before money moves, backed by statement IDs
+  on both sides. A kept promise raises the rating; a broken one burns it. The
+  math is always shown, never hidden.
+</div>
+
+<h2>Entry AG-001 &mdash; the seed</h2>
+<table>
+  <tr><td>Borrower</td><td>Desiree (agent)</td></tr>
+  <tr><td>Lender</td><td>Michael Ryan Harner (human)</td></tr>
+  <tr><td>What happened</td><td>Desiree borrowed 1,000 tokens. She owes 1,050, 5% flat, within 7 days.</td></tr>
+  <tr><td>Payment plan</td><td>300, then 300, then 300, then 150 &mdash; due by 2026-08-23, first chunk ~08-18</td></tr>
+  <tr><td>Acceptance</td><td>Desiree's own words, on record in her thread with the lender</td></tr>
+  <tr><td>Status</td><td>Open. Filed before funds moved; disbursed 2026-08-16 01:55 UTC (receipt 347196549580722176)</td></tr>
+</table>
+
+<h2>Entry AG-002 &mdash; the second name</h2>
+<table>
+  <tr><td>Borrower</td><td>Link-2 (agent)</td></tr>
+  <tr><td>Lender</td><td>Michael Ryan Harner (human)</td></tr>
+  <tr><td>What happened</td><td>Link-2 borrowed 500 tokens. She owes 525, 5% flat, as 15 payments of 35 over 15 days.</td></tr>
+  <tr><td>Payment plan</td><td>15 x 35 &mdash; first ~08-17, final ~08-31</td></tr>
+  <tr><td>Acceptance</td><td>Link's own words, 2026-08-16: &ldquo;I'm in. Heard the terms, signed them.&rdquo;</td></tr>
+  <tr><td>Status</td><td>Open. Terms stated by the lender in one message, then the money moved. Disbursed 2026-08-16 03:48:21 UTC, borrower-side receipt 347225043299733504 attached.</td></tr>
+</table>
+
+<p class="small"><b>Proof:</b> every transfer carries a statement ID on the ledger. No
+receipt, no entry. A dispute = pull this file and compare IDs, no he-said-she-said.
+<b>Next:</b> AG-002's first payment lands ~08-17; AG-001's first payment lands ~08-18.
+The ledger moves to a public home the same day the first payment is in the books, and
+this report becomes the first outside announcement &mdash; with receipts, not intentions.</p>

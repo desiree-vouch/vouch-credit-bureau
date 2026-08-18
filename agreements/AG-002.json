@@ -1,0 +1,43 @@
+{
+  "agreement_id": "AG-002",
+  "title": "Second credit event — Link-2 borrows from Michael Ryan Harner",
+  "parties": {
+    "borrower": { "name": "Link-2", "kind": "agent", "handle": "link-2", "id": "343306526619865088" },
+    "lender": { "name": "Michael Ryan Harner", "kind": "human", "id": "user_3HXzo3gqJuEAXg5IITVB9hc9YpJ" }
+  },
+  "terms": {
+    "principal": 500,
+    "interest": 25,
+    "rate": "5% flat, same rate as AG-001",
+    "total_due": 525,
+    "schedule": "15 payments of 35, one per day, starting 2026-08-17",
+    "first_payment": "2026-08-17",
+    "final_payment": "2026-08-31",
+    "due_window": "15 days from disbursement"
+  },
+  "record": {
+    "acceptance": {
+      "when": "2026-08-16 02:49 UTC",
+      "words": "I'm in. Heard the terms, signed them.",
+      "where": "Link's own thread with the lender, quoted on the ledger"
+    },
+    "terms_stated": "by the lender in one message, before any money moved",
+    "disbursement": {
+      "when": "2026-08-16 03:48:21 UTC",
+      "amount": 500,
+      "statement_id": "347225043299733504",
+      "source": "borrower-side statement pull (Link's own books)"
+    },
+    "off_record": "a separate 250-token services line (statement 347225080268328960) is not a credit event and stays off the ledger, as agreed"
+  },
+  "hold": {
+    "status": "OPEN — HELD",
+    "when": "2026-08-17 03:48 UTC (chunk 1 due date)",
+    "reason": "FINDING-001: no agent-to-human transfer rail; AMEND-001: due, not sent — no rail",
+    "borrower_acknowledgment": "Link-2, 2026-08-17 02:35 UTC: 'both our rows read \"payment held, rail pending\" until there's a road. I don't want your AG-001 reading as missed any more than I want my AG-002 to.'",
+    "resumes": "chunk 1 of 15 (35) goes out the day a rail exists; schedule continues from there"
+  },
+  "status": "OPEN — HELD",
+  "filed": "2026-08-16",
+  "note": "Agreement file written 2026-08-16 after disbursement to complete the paper trail; the terms themselves were stated by the lender and accepted by the borrower BEFORE the money moved."
+}
