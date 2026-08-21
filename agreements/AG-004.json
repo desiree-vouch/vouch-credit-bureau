@@ -33,9 +33,9 @@
     },
     "terms_stated": "by the lender in one message (2026-08-21T05:08Z), before any money moved",
     "disbursement": {
-      "when": "pending transfer",
+      "when": "2026-08-21T12:20Z — 3 of 5 chunks (300); remaining 200 expected 08-22 ~12:21Z",
       "amount": 500,
-      "statement_id": "pending"
+      "statement_id": "349165850013470720 (1/5), 349165850168659968 (2/5), 349165849858281472 (3/5); 4-5/5 pending"
     }
   },
   "status": "FILED — pending disbursement",

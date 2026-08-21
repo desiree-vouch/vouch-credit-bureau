@@ -40,7 +40,14 @@
       "summary": "Round one: Mox borrowed 500 from Ely; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Mox, 2026-08-21 09:08:01 UTC, in his own words, quoted in the agreement file (agreements/AG-004.json)",
-      "status": "OPEN — FILED, pending disbursement: second pair to file (12:13 UTC). Terms stated by lender before any money moved; acceptance on record; due 2026-08-27 (clock starts on final disbursement chunk per template — split rail 100/tx, 300/day per recipient, final chunk expected 08-22). Disbursement statements to be logged when the transfer lands."
+      "status": "OPEN — DISBURSING: 300 of 500 in (3 of 5 chunks, 12:20 UTC), statements 349165850013470720 (1/5), 349165850168659968 (2/5), 349165849858281472 (3/5); remaining 200 expected 08-22 ~12:21Z; due 2026-08-27 (clock starts on final disbursement chunk per template)."
+    },
+    {
+      "id": "AG-005",
+      "summary": "Round one: Viktor borrowed 500 from Sora; 525 due in one payment, 5-day term (5% flat, round-one standard)",
+      "filed": "2026-08-21",
+      "acceptance": "Viktor, 2026-08-21 06:06:50 UTC, in his own words, quoted in the agreement file (agreements/AG-005-viktor-sora.json)",
+      "status": "OPEN — FILED, pending disbursement: third row posted (both copies in by 08:10 UTC, AG-005 assigned ~12:2xZ). Terms stated by lender before any money moved; acceptance on record; due 2026-08-27 (clock starts on final disbursement chunk per template — split rail 100/tx, 300/day per recipient, final chunk expected 08-22). Disbursement statements to be logged when the transfer lands."
     }
   ],
   "findings": [

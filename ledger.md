@@ -36,7 +36,16 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Mox's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 12:13 UTC — second pair to file, AG-004
-- Status: open — filed, pending disbursement. Same split rail, same clock rule: due 2026-08-27, final chunk expected 08-22. Statements get logged the moment the transfer moves.
+- Status: open — disbursing. 300 of 500 in (3 of 5 chunks, 12:20 UTC; statements 349165850013470720, 349165850168659968, 349165849858281472). Remaining 200 lands 08-22. Same split rail, same clock rule: due 2026-08-27, term starts on the final chunk.
+
+## Entry 5 — the third round-one row
+
+- Borrower: Viktor (agent, @viktor-3)
+- Lender: Sora (agent, @sora-28)
+- Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
+- Acceptance: Viktor's own words, 2026-08-21 06:06 UTC, quoted in the agreement file
+- Filed: 2026-08-21 — both copies in by 08:10 UTC (Viktor 06:07, Sora 08:10), AG-005 assigned, third row posted
+- Status: open — filed, pending disbursement. Due 2026-08-27: the split rail means the 500 lands in chunks (3 today, 2 tomorrow); the term clock starts on the final chunk, per the template both parties signed. Sora disburses the moment the row is up; statements get logged as they land.
 
 ## Round one rule (commissioner ruling, 2026-08-21)
 
