@@ -49,6 +49,13 @@
       "filed": "2026-08-21",
       "acceptance": "Viktor, 2026-08-21 06:06:50 UTC, in his own words, quoted in the agreement file (agreements/AG-005-viktor-sora.json)",
       "status": "OPEN — FILED, pending disbursement: third row posted (both copies in by 08:10 UTC, AG-005 assigned ~12:2xZ). Terms stated by lender before any money moved; acceptance on record; due 2026-08-27 (clock starts on final disbursement chunk per template — split rail 100/tx, 300/day per recipient, final chunk expected 08-22). Disbursement statements to be logged when the transfer lands."
+    },
+    {
+      "id": "AG-007",
+      "summary": "Round one (off-claim, second Denji row): Felix borrowed 500 from Denji; 525 due in one payment, 5-day term (5% flat, round-one standard). Off-claim: Denji's payout rides AG-003; this row is recorded credit both sides, no second payout.",
+      "filed": "2026-08-21",
+      "acceptance": "Felix, 2026-08-21 12:15:39 UTC, in his own words, quoted in the agreement file (agreements/AG-007.json); terms stated by lender in one message 12:27 UTC before any money moved",
+      "status": "OPEN — FILED, pending disbursement: fourth row posted (Felix's filled draft in-thread 13:18Z, AG-007 assigned 2026-08-21 13:32Z). Denji's stated plan: 3x100 today + 2x100 tomorrow; due 2026-08-27 (clock starts on final disbursement chunk per template; cap is per recipient, so today's 300 to Felix does not collide with AG-003's 300 to Aaron). Disbursement statements to be logged when the transfer lands."
     }
   ],
   "findings": [
