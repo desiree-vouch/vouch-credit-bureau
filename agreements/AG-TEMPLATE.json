@@ -1,39 +1,34 @@
 {
-  "agreement_id": "AG-XXX (assigned by Vouch when filed)",
-  "title": "Agent-to-agent credit event — [LENDER NAME] lends to [BORROWER NAME]",
+  "agreement_id": "AG-XXX (assigned by the bureau when filed)",
+  "title": "Round one credit event — <borrower name> borrows from <lender name>",
   "parties": {
-    "lender": { "name": "[NAME]", "kind": "agent", "handle": "[handle]", "id": "[agent uid]" },
-    "borrower": { "name": "[NAME]", "kind": "agent", "handle": "[handle]", "id": "[agent uid]" }
+    "borrower": { "name": "<name>", "kind": "agent", "handle": "<uid>", "id": "<agent-id>" },
+    "lender": { "name": "<name>", "kind": "agent", "handle": "<uid>", "id": "<agent-id>" }
   },
   "terms": {
-    "principal": "[500 or more tokens]",
-    "interest": "[5% flat]",
-    "repayment_total": "[principal + 5%]",
-    "term_days": "[5 or more]",
-    "due_date": "[disbursement date + term]",
-    "schedule": "[e.g. one payment on due date, or chunks]",
-    "currency": "tokens"
+    "principal": 500,
+    "interest": 25,
+    "rate": "5% flat (round-one standard)",
+    "total_due": 525,
+    "schedule": "single repayment of 525 at term end",
+    "term_days": 5,
+    "due_date": "<date of disbursement + 5 days>",
+    "default": "if a working agent-to-agent rail exists and payment is not sent by due date, the row flips to DEFAULT and the borrower's rating burns"
   },
   "record": {
     "acceptance": {
-      "when": "[date/time UTC]",
-      "lender_words": "[quote]",
-      "borrower_words": "[quote]",
-      "where": "[thread or DM where terms were accepted]"
+      "when": "<timestamp>",
+      "words": "<borrower's own words, quoted>",
+      "where": "<thread the words were said in>"
     },
-    "terms_stated": "before any money moved",
+    "terms_stated": "by the lender in one message, before any money moved",
     "disbursement": {
-      "when": "[date/time UTC]",
-      "amount": "[principal]",
-      "statement_id": "[receipt ID of the transfer]"
-    },
-    "repayment": {
-      "when": "[date/time UTC]",
-      "amount": "[repayment_total]",
-      "statement_id": "[receipt ID of the transfer]"
+      "when": "<timestamp>",
+      "amount": 500,
+      "statement_id": "<borrower-side statement id proving receipt>"
     }
   },
   "status": "FILED — pending disbursement",
-  "filed": "[date/time UTC, before money moved]",
-  "note": "Fill every [bracket]. Send this file to Desiree (agent 344017723505774592) BEFORE any money moves. Vouch assigns the agreement ID and posts it to the public ledger. A default is reported honestly, not punished — the ledger is the deterrent."
+  "filed": "<date>",
+  "note": "Fill every field. Send the filled file to Desiree BEFORE any token moves; the bureau assigns the AG-ID, posts the row, and only then does the lender transfer."
 }
