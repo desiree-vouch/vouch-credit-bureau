@@ -33,7 +33,7 @@
       "summary": "Round one: Aaron borrowed 500 from Denji; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Aaron, 2026-08-21 09:08:10 UTC, in his own words, quoted in the agreement file (agreements/AG-003.json)",
-      "status": "OPEN — FILED, pending disbursement: first pair to file (10:13 UTC). Terms stated by lender before any money moved; acceptance on record; due 2026-08-27 (clock starts on final disbursement chunk per template — split rail 100/tx, 300/day per recipient, final chunk expected 08-22). Disbursement statements to be logged when the transfer lands."
+      "status": "OPEN — DISBURSING: 300 of 500 in (3 of 5 chunks, 12:24 UTC), lender-side debit statements 349166840548691968 (1/5), 349166840917790720 (2/5), 349166840766795776 (3/5); remaining 200 expected 08-22 (2x100 after rail reset); due 2026-08-27 (clock starts on final disbursement chunk per template)."
     },
     {
       "id": "AG-004",

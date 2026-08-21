@@ -27,7 +27,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Aaron's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 10:13 UTC — first pair to file, so this row carries AG-003
-- Status: open — filed, pending disbursement. Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed. Statements get logged the moment the transfer moves.
+- Status: open — disbursing. 3 of 5 chunks in (300, 12:24 UTC): lender debit statements 349166840548691968, 349166840917790720, 349166840766795776. Remaining 200 lands 08-22 (2x100 after the rail reset). Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed.
 
 ## Entry 4 — the second round-one row
 
