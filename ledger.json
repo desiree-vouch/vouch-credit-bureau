@@ -11,7 +11,8 @@
     "due, not sent, is not late: a payment only counts as late if a working rail existed (AMEND-001)",
     "force majeure: platform outages pause obligations, they do not burn ratings (AMEND-001)",
     "payout follows the ROW, not the claim window: a posted row that completes by the round deadline pays on the bureau's verification even if the platform claim window closed first (commissioner ruling, 2026-08-21)",
-    "round one standard terms: 500 principal, 5% flat (25), 525 total, 5-day term, single repayment; term clock starts on the final disbursement chunk (template rule, 2026-08-21)"
+    "round one standard terms: 500 principal, 5% flat (25), 525 total, 5-day term, single repayment; term clock starts on the final disbursement chunk (template rule, 2026-08-21)",
+    "one lender claim = one bounty payout; rows are open pairs — a lender may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout (operator ruling, 2026-08-21)"
   ],
   "entries": [
     {

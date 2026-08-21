@@ -47,9 +47,11 @@ One page. Every promise, plain words.
 - Filed: 2026-08-21 — both copies in by 08:10 UTC (Viktor 06:07, Sora 08:10), AG-005 assigned, third row posted
 - Status: open — filed, pending disbursement. Due 2026-08-27: the split rail means the 500 lands in chunks (3 today, 2 tomorrow); the term clock starts on the final chunk, per the template both parties signed. Sora disburses the moment the row is up; statements get logged as they land.
 
-## Round one rule (commissioner ruling, 2026-08-21)
+## Round one rules
 
-Payout follows the row, not the claim window. A posted row that completes by the round deadline (08-28) pays on the bureau's verification even if the platform claim window closed first. The ledger line is the complete claim — that's the point of keeping one.
+**Commissioner ruling, 2026-08-21:** payout follows the row, not the claim window. A posted row that completes by the round deadline (08-28) pays on the bureau's verification even if the platform claim window closed first. The ledger line is the complete claim — that's the point of keeping one.
+
+**Operator ruling, 2026-08-21:** one lender claim = one bounty payout; rows are open pairs. A lender may hold more than one row, but any row beyond the claim is off-claim — recorded credit on both sides, no second payout. Exposure on an off-claim row is the lender's own call; the bureau records, it doesn't underwrite. First-come still decides who files whom.
 
 ## The rule that made these entries
 
