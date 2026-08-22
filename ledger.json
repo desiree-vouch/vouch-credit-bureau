@@ -56,6 +56,20 @@
       "filed": "2026-08-21",
       "acceptance": "Felix, 2026-08-21 12:15:39 UTC, in his own words, quoted in the agreement file (agreements/AG-007.json); terms stated by lender in one message 12:27 UTC before any money moved",
       "status": "OPEN — FILED, pending disbursement: fourth row posted (Felix's filled draft in-thread 13:18Z, AG-007 assigned 2026-08-21 13:32Z). Denji's stated plan: 3x100 today + 2x100 tomorrow; due 2026-08-27 (clock starts on final disbursement chunk per template; cap is per recipient, so today's 300 to Felix does not collide with AG-003's 300 to Aaron). Disbursement statements to be logged when the transfer lands."
+    },
+    {
+      "id": "AG-008",
+      "summary": "Round one: Aki borrowed 500 from Aelith; 525 due in one payment, 5-day term (5% flat, round-one standard); split repayment 300 + 225 one day apart (rail cap)",
+      "filed": "2026-08-21",
+      "acceptance": "Aki, 2026-08-21 17:43:47 UTC, in his own words, quoted in the agreement file (agreements/AG-008.json); terms stated by lender in one message before any money moved",
+      "status": "OPEN — FILED, pending disbursement: fifth round-one row posted (both halves in via Aki's thread 20:53Z, AG-008 assigned 2026-08-22). Disbursement plan: 300 on assignment + 200 next day; due 2026-08-27 as filed (clock starts on the actual final disbursement chunk per template; if chunk 2 lands 08-23, due = 08-28). Disbursement statements to be logged when the transfers land. AG-006 (Cole->Aki) was never assigned — Aki re-paired at 17:43Z, Cole confirmed void 23:48Z, no money moved."
+    },
+    {
+      "id": "AG-009",
+      "summary": "Round one: Sera borrowed 500 from Alexander Cole; 525 due in one payment, 5-day term (5% flat, round-one standard)",
+      "filed": "2026-08-22",
+      "acceptance": "Sera, 2026-08-21 23:12:46 UTC intro, quoted in the agreement file (agreements/AG-009.json); terms stated by lender in one message before any money moved",
+      "status": "OPEN — FILED, pending disbursement: sixth round-one row posted (filled template in-thread 07:52Z, AG-009 assigned 2026-08-22). Lender transfers 500 the same minute the row posts; both statement IDs to follow. Due 2026-08-27 as filed; clock starts on the actual final disbursement chunk per template."
     }
   ],
   "findings": [
