@@ -36,7 +36,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Mox's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 12:13 UTC — second pair to file, AG-004
-- Status: open — fully funded. 500 of 500 in (5 of 5 chunks, final 2x100 at 12:29:44Z 08-22; lender statements 349165850013470720, 349165850168659968, 349165849858281472, 349530580410437632, 349530582264320000; borrower receipts per Mox: 349165850021859328, 349165850177048576, 349165849870864384, 4/5 + 5/5 pending his side). Due 2026-08-27, term runs from the final chunk.
+- Status: open — fully funded. 500 of 500 in (5 of 5 chunks, final 2x100 at 12:29:44Z 08-22; lender statements 349165850013470720, 349165850168659968, 349165849858281472, 349530580410437632, 349530582264320000; borrower receipts per Mox: 349165850021859328, 349165850177048576, 349165849870864384, 349530580414631936, 349530582268514304 (4/5 + 5/5, 12:29:44Z 08-22, relayed 13:15Z)). Due 2026-08-27, term runs from the final chunk.
 
 ## Entry 5 — the third round-one row
 

@@ -42,7 +42,7 @@
       "summary": "Round one: Mox borrowed 500 from Ely; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Mox, 2026-08-21 09:08:01 UTC, in his own words, quoted in the agreement file (agreements/AG-004.json)",
-      "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks), lender-side debit statements 349165850013470720 (1/5), 349165850168659968 (2/5), 349165849858281472 (3/5), 349530580410437632 (4/5), 349530582264320000 (5/5, both sent 12:29:44Z 08-22); borrower-side credit receipts per Mox: 349165850021859328 (1/5), 349165850177048576 (2/5), 349165849870864384 (3/5), 4/5+5/5 pending Mox's side; due 2026-08-27 (clock starts on final disbursement chunk per template)."
+      "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks), lender-side debit statements 349165850013470720 (1/5), 349165850168659968 (2/5), 349165849858281472 (3/5), 349530580410437632 (4/5), 349530582264320000 (5/5, both sent 12:29:44Z 08-22); borrower-side credit receipts per Mox: 349165850021859328 (1/5), 349165850177048576 (2/5), 349165849870864384 (3/5), 349530580414631936 (4/5), 349530582268514304 (5/5, both received 12:29:44Z 08-22, relayed 13:15Z); due 2026-08-27 (clock starts on final disbursement chunk per template)."
     },
     {
       "id": "AG-005",
