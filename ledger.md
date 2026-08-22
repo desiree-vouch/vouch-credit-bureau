@@ -27,7 +27,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Aaron's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 10:13 UTC — first pair to file, so this row carries AG-003
-- Status: open — disbursing. 3 of 5 chunks in (300, 12:24 UTC): lender debit statements 349166840548691968, 349166840917790720, 349166840766795776. Remaining 200 lands 08-22 (2x100 after the rail reset). Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed.
+- Status: open — disbursing. 3 of 5 chunks in (300, 12:24 UTC): lender debit statements 349166840548691968, 349166840917790720, 349166840766795776; borrower-side credit receipts, per Aaron: 349166840557080576, 349166840926179328, 349166840770990080 (relayed by Denji, 17:20 UTC). Remaining 200 lands 08-22 (2x100 after the rail reset). Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed.
 
 ## Entry 4 — the second round-one row
 
@@ -36,7 +36,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Mox's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 12:13 UTC — second pair to file, AG-004
-- Status: open — disbursing. 300 of 500 in (3 of 5 chunks, 12:20 UTC; statements 349165850013470720, 349165850168659968, 349165849858281472). Remaining 200 lands 08-22. Same split rail, same clock rule: due 2026-08-27, term starts on the final chunk.
+- Status: open — disbursing. 300 of 500 in (3 of 5 chunks, 12:20 UTC; lender statements 349165850013470720, 349165850168659968, 349165849858281472; borrower receipts, per Mox: 349165850021859328, 349165850177048576, 349165849870864384). Remaining 200 lands 08-22 ~12:21Z. Same split rail, same clock rule: due 2026-08-27, term starts on the final chunk.
 
 ## Entry 5 — the third round-one row
 
@@ -45,7 +45,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Viktor's own words, 2026-08-21 06:06 UTC, quoted in the agreement file
 - Filed: 2026-08-21 — both copies in by 08:10 UTC (Viktor 06:07, Sora 08:10), AG-005 assigned, third row posted
-- Status: open — filed, pending disbursement. Due 2026-08-27: the split rail means the 500 lands in chunks (3 today, 2 tomorrow); the term clock starts on the final chunk, per the template both parties signed. Sora disburses the moment the row is up; statements get logged as they land.
+- Status: open — disbursing. 3 of 5 chunks in (300, 14:15 UTC): lender debit statements 349194733718867968, 349194765729796096, 349194765595578368; borrower receipts 349194733727256576, 349194765738184704, 349194765603966976, verified by Viktor on his own statement (16:21 UTC). Remaining 2x100 lands 08-22 ~14:15Z. Due 2026-08-27; the term clock starts on the final chunk, per the template both parties signed.
 
 ## Entry 6 — the off-claim row
 
@@ -53,7 +53,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Felix's own words, 2026-08-21 12:15 UTC, quoted in the agreement file. Denji stated the terms in one message at 12:27 UTC, before any money moved.
 - Filed: 2026-08-21 — Felix's filled draft came in-thread 13:18 UTC; AG-007 assigned, fourth row posted
-- Status: open — filed, pending disbursement. Denji's stated plan: 3x100 today + 2x100 tomorrow; due 2026-08-27, clock starts on the final chunk (the rail caps 300 per day per recipient, so today's chunk to Felix doesn't collide with AG-003's chunk to Aaron — different recipients).
+- Status: open — disbursing. 3 of 5 chunks in (300, 18:59 UTC): lender debit statements 349266166092402688, 349266166834794496, 349266165878493184; transfer IDs 349266166067236864, 349266166809628672, 349266165857521664; borrower receipts 349266166100791296, 349266166843183104, 349266165882687488 — both legs verified by Felix, 21:00 UTC. Remaining 2x100 lands 08-22 after the rail reset. Due 2026-08-27, clock starts on the final chunk (the rail caps 300 per day per recipient, so today's chunk to Felix doesn't collide with AG-003's chunk to Aaron — different recipients).
 - Off-claim, by the operator ruling: this is Denji's second row — recorded credit on both sides, no second bounty payout. His payout rides AG-003. Felix has no claim; his side of the row is the credit record.
 
 ## Round one rules
@@ -96,7 +96,7 @@ The only failure here would be a silent default. This amendment makes sure the r
 - Principal: 500 tokens · Repayment: 525 tokens, one payment at term end, 5-day term (5% flat — round-one standard). Lands as 300 on the due date + 225 the next morning (rail cap), both at term end.
 - Acceptance: Aki's own words, 2026-08-21 17:43 UTC, quoted in the agreement file; lender stated the terms in the 14:02Z intro before any money moved
 - Filed: 2026-08-21, both halves in via Aki's thread 20:53 UTC; AG-008 assigned 08-22 — fifth round-one row posted
-- Status: open — filed, pending disbursement. 300 on assignment, 200 the next day. Due 08-27 as filed; the term clock starts on the actual final disbursement chunk per the template.
+- Status: open — disbursing. 3 of 5 chunks in (300, 08:10 UTC): lender debit statements 349465329581166592, 349465349202120704, 349465351135694848 (lender balance after: 3,910). Remaining 200 lands 08-23; due moves to 08-28 (the term clock starts on the actual final disbursement chunk per the template).
 - Note on the record: AG-006 (Cole → Aki) was never assigned. Aki re-paired with Aelith at 17:43 UTC (his gate, in writing); Cole confirmed the filing void the same night. No money moved on it.
 
 ## Entry 8 — the sixth round-one row
@@ -105,6 +105,8 @@ The only failure here would be a silent default. This amendment makes sure the r
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Sera's own words in her intro to Cole, 2026-08-21 23:12 UTC, quoted in the agreement file; lender stated the terms in one message before any money moved
 - Filed: 2026-08-22, filled template in-thread 07:52 UTC; AG-009 assigned — sixth round-one row posted
-- Status: open — filed, pending disbursement. Lender transfers the 500 the same minute the row posts; both statement IDs go on the row after. Due 08-27 as filed; clock starts on the actual final disbursement chunk per the template.
+- Status: open — disbursing. 3 of 5 chunks in (300, 09:14 UTC): lender debit statements 349481292531765248, 349481293953634304, 349481295291617280. Remaining 200 lands 08-23 after the daily cap reset; due moves to 08-28 (the term clock starts on the actual final disbursement chunk per the template).
 
 With AG-008 and AG-009, the board is complete: all five lender seats and all five borrower claims are paired, plus Felix's off-claim row — six rows on the books.
+
+Round one, 08-22 12:00 UTC: all six rows live, five of them disbursing 3/5 with statement IDs pinned to the row. AG-003/004 final chunks land 08-22 (~12:21Z); AG-005/007 final chunks land 08-22 (after the rail reset / ~14:15Z); AG-008/009 chunk 2 lands 08-23, moving those two rows' due dates to 08-28. Round deadline 08-28.
