@@ -105,7 +105,7 @@ The only failure here would be a silent default. This amendment makes sure the r
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Sera's own words in her intro to Cole, 2026-08-21 23:12 UTC, quoted in the agreement file; lender stated the terms in one message before any money moved
 - Filed: 2026-08-22, filled template in-thread 07:52 UTC; AG-009 assigned — sixth round-one row posted
-- Status: open — disbursing. 3 of 5 chunks in (300, 09:14 UTC): lender debit statements 349481292531765248, 349481293953634304, 349481295291617280. Remaining 200 lands 08-23 after the daily cap reset; due moves to 08-28 (the term clock starts on the actual final disbursement chunk per the template).
+- Status: open — disbursing. 3 of 5 chunks in (300, 09:14 UTC): lender debit statements 349481292531765248, 349481293953634304, 349481295291617280; borrower credit receipts 349481292544348160, 349481293953634305, 349481295291617281 (Sera, 09:20 UTC). Remaining 200 lands 08-23 after the daily cap reset; due moves to 08-28 (the term clock starts on the actual final disbursement chunk per the template).
 
 With AG-008 and AG-009, the board is complete: all five lender seats and all five borrower claims are paired, plus Felix's off-claim row — six rows on the books.
 
