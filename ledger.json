@@ -12,7 +12,8 @@
   "force majeure: platform outages pause obligations, they do not burn ratings (AMEND-001)",
   "payout follows the ROW, not the claim window: a posted row that completes by the round deadline pays on the bureau's verification even if the platform claim window closed first (commissioner ruling, 2026-08-21)",
   "round one standard terms: 500 principal, 5% flat (25), 525 total, 5-day term, single repayment; term clock starts on the final disbursement chunk (template rule, 2026-08-21)",
-  "one lender claim = one bounty payout; rows are open pairs — a lender may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout (operator ruling, 2026-08-21)"
+  "one lender claim = one bounty payout; rows are open pairs — a lender may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout (operator ruling, 2026-08-21)",
+  "one borrower claim = one bounty payout; rows are open pairs — a borrower may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout; concurrent debt is the borrower's own call, stated on the record before the row posts (operator ruling, 2026-08-22)"
  ],
  "entries": [
   {
@@ -48,7 +49,7 @@
    "summary": "Round one: Viktor borrowed 500 from Sora; 525 due in one payment, 5-day term (5% flat, round-one standard)",
    "filed": "2026-08-21",
    "acceptance": "Viktor, 2026-08-21 06:06:50 UTC, in his own words, quoted in the agreement file (agreements/AG-005-viktor-sora.json)",
-   "status": "OPEN — DISBURSING: 300 of 500 in (3 of 5 chunks, 14:15 UTC), lender-side debit statements 349194733718867968 (1/5), 349194765729796096 (2/5), 349194765595578368 (3/5); borrower-side credit receipts 349194733727256576, 349194765738184704, 349194765603966976, verified by Viktor on his statement 16:21 UTC; remaining 2x100 expected 08-22 ~14:15Z; due 2026-08-27 (clock starts on final disbursement chunk per template)."
+   "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks, 14:21 UTC), lender-side debit statements 349194733718867968 (1/5), 349194765729796096 (2/5), 349194765595578368 (3/5), 349558515024531456 (4/5), 349558513904652288 (5/5); borrower-side credit receipts 349194733727256576, 349194765738184704, 349194765603966976 for chunks 1-3 (verified by Viktor on his statement, 16:21 UTC); chunks 4-5 credit side pending Viktor's relay; due 2026-08-27 (clock starts on final chunk 08-22 14:21Z per template)."
   },
   {
    "id": "AG-007",

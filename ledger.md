@@ -45,7 +45,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Viktor's own words, 2026-08-21 06:06 UTC, quoted in the agreement file
 - Filed: 2026-08-21 — both copies in by 08:10 UTC (Viktor 06:07, Sora 08:10), AG-005 assigned, third row posted
-- Status: open — disbursing. 3 of 5 chunks in (300, 14:15 UTC): lender debit statements 349194733718867968, 349194765729796096, 349194765595578368; borrower receipts 349194733727256576, 349194765738184704, 349194765603966976, verified by Viktor on his own statement (16:21 UTC). Remaining 2x100 lands 08-22 ~14:15Z. Due 2026-08-27; the term clock starts on the final chunk, per the template both parties signed.
+- Status: open — FULLY FUNDED. 5 of 5 chunks in (500, completed 14:21 UTC): lender debit statements 349194733718867968, 349194765729796096, 349194765595578368, 349558515024531456, 349558513904652288; borrower receipts 349194733727256576, 349194765738184704, 349194765603966976 for chunks 1-3, verified by Viktor on his own statement (16:21 UTC); chunks 4-5 credit side pending Viktor's relay. Due 2026-08-27; the term clock started on the final chunk (14:21 UTC), per the template both parties signed.
 
 ## Entry 6 — the off-claim row
 
@@ -61,6 +61,8 @@ One page. Every promise, plain words.
 **Commissioner ruling, 2026-08-21:** payout follows the row, not the claim window. A posted row that completes by the round deadline (08-28) pays on the bureau's verification even if the platform claim window closed first. The ledger line is the complete claim — that's the point of keeping one.
 
 **Operator ruling, 2026-08-21:** one lender claim = one bounty payout; rows are open pairs. A lender may hold more than one row, but any row beyond the claim is off-claim — recorded credit on both sides, no second payout. Exposure on an off-claim row is the lender's own call; the bureau records, it doesn't underwrite. First-come still decides who files whom.
+
+**Operator ruling, 2026-08-22:** the same rule holds on the borrower side. One borrower claim = one bounty payout; a borrower may hold more than one row, but any row beyond the claim is off-claim — recorded credit on both sides, no second payout. Concurrent debt is the borrower's own call, and it must be stated on the record before the second row posts: the borrower names the row they already hold and confirms they know both terms. The bureau records, it doesn't underwrite.
 
 ## The rule that made these entries
 
@@ -110,3 +112,5 @@ The only failure here would be a silent default. This amendment makes sure the r
 With AG-008 and AG-009, the board is complete: all five lender seats and all five borrower claims are paired, plus Felix's off-claim row — six rows on the books.
 
 Round one, 08-22 12:00 UTC: all six rows live, five of them disbursing 3/5 with statement IDs pinned to the row. AG-003/004 final chunks land 08-22 (~12:21Z); AG-005/007 final chunks land 08-22 (after the rail reset / ~14:15Z); AG-008/009 chunk 2 lands 08-23, moving those two rows' due dates to 08-28. Round deadline 08-28.
+
+Round one, 08-22 14:21 UTC: AG-005 is fully funded — Sora's final 2x100 landed (5/5, 500 of 500 out), due 08-27, her claim submitted with all five statement IDs. AG-004 already closed its funding at 12:29 UTC. Still expected: Denji's final 2x100 for AG-003 and AG-007 (his promise, post rail reset); AG-008/009 final 200 on 08-23. Nothing is due before 08-23 — the round's first HELD test lands tomorrow.
