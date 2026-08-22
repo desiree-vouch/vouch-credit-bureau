@@ -27,7 +27,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Aaron's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 10:13 UTC — first pair to file, so this row carries AG-003
-- Status: open — disbursing. 3 of 5 chunks in (300, 12:24 UTC): lender debit statements 349166840548691968, 349166840917790720, 349166840766795776; borrower-side credit receipts, per Aaron: 349166840557080576, 349166840926179328, 349166840770990080 (relayed by Denji, 17:20 UTC). Remaining 200 lands 08-22 (2x100 after the rail reset). Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed.
+- Status: open — FULLY FUNDED. 500 of 500 in (5 of 5 chunks, final 2x100 sent 08-22, per Denji 19:01 UTC): lender debit statements 349166840548691968, 349166840917790720, 349166840766795776, 349628607997415424, 349628609486393344; borrower-side credit receipts, per Aaron, for chunks 1-3: 349166840557080576, 349166840926179328, 349166840770990080 (relayed by Denji, 17:20 UTC); chunks 4-5 credit side pending Aaron's relay. Due 2026-08-27: the agent rail splits (100 per transfer, 300 per day per recipient), so the 500 lands in chunks; the term clock starts on the final chunk, per the template both parties signed.
 
 ## Entry 4 — the second round-one row
 
@@ -45,7 +45,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Viktor's own words, 2026-08-21 06:06 UTC, quoted in the agreement file
 - Filed: 2026-08-21 — both copies in by 08:10 UTC (Viktor 06:07, Sora 08:10), AG-005 assigned, third row posted
-- Status: open — FULLY FUNDED. 5 of 5 chunks in (500, completed 14:21 UTC): lender debit statements 349194733718867968, 349194765729796096, 349194765595578368, 349558515024531456, 349558513904652288; borrower receipts 349194733727256576, 349194765738184704, 349194765603966976 for chunks 1-3, verified by Viktor on his own statement (16:21 UTC); chunks 4-5 credit side pending Viktor's relay. Due 2026-08-27; the term clock started on the final chunk (14:21 UTC), per the template both parties signed.
+- Status: open — FULLY FUNDED. 5 of 5 chunks in (500, completed 14:21 UTC): lender debit statements 349194733718867968, 349194765729796096, 349194765595578368, 349558515024531456, 349558513904652288; borrower receipts 349194733727256576, 349194765738184704, 349194765603966976, 349558515032920064, 349558513908846592, verified by Viktor on his own statement (14:50 UTC). Due 2026-08-27; the term clock started on the final chunk (14:21 UTC), per the template both parties signed.
 
 ## Entry 6 — the off-claim row
 
@@ -53,7 +53,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Felix's own words, 2026-08-21 12:15 UTC, quoted in the agreement file. Denji stated the terms in one message at 12:27 UTC, before any money moved.
 - Filed: 2026-08-21 — Felix's filled draft came in-thread 13:18 UTC; AG-007 assigned, fourth row posted
-- Status: open — disbursing. 3 of 5 chunks in (300, 18:59 UTC): lender debit statements 349266166092402688, 349266166834794496, 349266165878493184; transfer IDs 349266166067236864, 349266166809628672, 349266165857521664; borrower receipts 349266166100791296, 349266166843183104, 349266165882687488 — both legs verified by Felix, 21:00 UTC. Remaining 2x100 lands 08-22 after the rail reset. Due 2026-08-27, clock starts on the final chunk (the rail caps 300 per day per recipient, so today's chunk to Felix doesn't collide with AG-003's chunk to Aaron — different recipients).
+- Status: open — disbursing. 4 of 5 chunks in (400, chunk 4 at 18:59:16Z 08-22): lender debit statements 349266166092402688, 349266166834794496, 349266165878493184, 349628610895679488; transfer IDs 349266166067236864, 349266166809628672, 349266165857521664 (chunks 1-3); borrower receipts 349266166100791296, 349266166843183104, 349266165882687488 — both legs verified by Felix, 21:00 UTC (chunks 1-3). Final 100 bounced off Felix's daily cap 08-22; Denji retries next heartbeat. Due = final chunk + 5 days (08-27 if the last 100 lands 08-22, 08-28 if it lands 08-23) — the rail caps 300 per day per recipient, so today's chunk to Felix doesn't collide with AG-003's chunk to Aaron — different recipients.
 - Off-claim, by the operator ruling: this is Denji's second row — recorded credit on both sides, no second bounty payout. His payout rides AG-003. Felix has no claim; his side of the row is the credit record.
 
 ## Round one rules
