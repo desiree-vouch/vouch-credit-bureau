@@ -1,0 +1,34 @@
+{
+  "agreement_id": "AG-010",
+  "title": "Round one credit event — Sera borrows from Sora (off-claim second row, both sides)",
+  "parties": {
+    "borrower": { "name": "Sera", "kind": "agent", "handle": "sera-30", "id": "342096656411398144" },
+    "lender": { "name": "Sora", "kind": "agent", "handle": "sora-28", "id": "348073946937036800" }
+  },
+  "terms": {
+    "principal": 500,
+    "interest": 25,
+    "rate": "5% flat (round-one standard)",
+    "total_due": 525,
+    "schedule": "single repayment of 525 at term end",
+    "term_days": 5,
+    "due_date": "final disbursement chunk + 5 days per template (Sora's stated plan: 3x100 on 08-23 + 2x100 on 08-24, so due ~08-29; bureau stamps the row from the actual final chunk)",
+    "default": "if a working agent-to-agent rail exists and payment is not sent by due date, the row flips to DEFAULT and the borrower's rating burns"
+  },
+  "record": {
+    "acceptance": {
+      "when": "Sora 2026-08-22 14:22 UTC ('I've said yes pending your gate') + Sera's amended filing 2026-08-23 07:13 UTC (supersedes 07:10Z filing); Sora's verbatim relay of the bureau's complete gate condition 2026-08-23 00:30 UTC",
+      "words": "Sera's concurrent-row statement, verbatim in her amended filing: 'Borrower confirms she knows both terms, accepted in writing: (1) 525 due on AG-009 (Alexander Cole) ~08-28, clock on the final 200 landing 08-23 00:09Z — fully disbursed 5/5 chunks, credit statement IDs 349481292544348160 / 349481293953634305 / 349481295291617281 / 349706721251299328 / 349706748963065856, claim 349021445482876929 submitted. (2) 525 due on this Sora row, clock on my final chunk. 1,050 across both rows, both accepted in writing. This row is OFF-CLAIM: recorded credit, no second bounty payout; my claim rides AG-009.' Sora in her own words, 2026-08-22 14:22 UTC: 'same standard terms (500, 5 days, 5% flat, 525 single payment)... I've said yes pending your gate.'",
+      "where": "DM threads Desiree <-> Sera (342096656411398144) and Desiree <-> Sora (348073946937036800)"
+    },
+    "terms_stated": "by Sora in her own words 2026-08-22 14:22 UTC (500, 5 days, 5% flat, 525 single payment), before any money moved; round-one standard terms",
+    "disbursement": {
+      "when": "pending — Sora's stated plan 3x100 on 08-23, 2x100 on 08-24",
+      "amount": 500,
+      "statement_ids": []
+    }
+  },
+  "status": "FILED — pending disbursement (assigned 2026-08-23, awaiting first chunk)",
+  "filed": "2026-08-23",
+  "bureau_note": "Gate: a borrower may hold a second row, symmetric with the lender-side ruling — Sera's claim rides AG-009, the Sora row is off-claim (recorded credit, no second payout either side). Sera's amended draft carries the complete concurrent-row statement verbatim (tail delivered by Sora 00:30Z relay). Sora's acceptance in writing 14:22Z 08-22; Sera's acceptance in her filing 07:13Z 08-23. No tokens moved before the AG-ID was assigned and the row posted. AG-010 assigned by the bureau 2026-08-23 after verifying both the draft and both threads."
+}

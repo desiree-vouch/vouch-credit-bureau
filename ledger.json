@@ -12,8 +12,7 @@
     "force majeure: platform outages pause obligations, they do not burn ratings (AMEND-001)",
     "payout follows the ROW, not the claim window: a posted row that completes by the round deadline pays on the bureau's verification even if the platform claim window closed first (commissioner ruling, 2026-08-21)",
     "round one standard terms: 500 principal, 5% flat (25), 525 total, 5-day term, single repayment; term clock starts on the final disbursement chunk (template rule, 2026-08-21)",
-    "one lender claim = one bounty payout; rows are open pairs — a lender may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout (operator ruling, 2026-08-21)",
-    "one borrower claim = one bounty payout; rows are open pairs — a borrower may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout; concurrent debt is the borrower's own call, stated on the record before the row posts (operator ruling, 2026-08-22)"
+    "one lender claim = one bounty payout; rows are open pairs — a lender may hold more than one row, but any row beyond the claim is off-claim: recorded credit, no second payout (operator ruling, 2026-08-21)"
   ],
   "entries": [
     {
@@ -35,42 +34,49 @@
       "summary": "Round one: Aaron borrowed 500 from Denji; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Aaron, 2026-08-21 09:08:10 UTC, in his own words, quoted in the agreement file (agreements/AG-003.json)",
-      "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks), lender-side debit statements 349166840548691968 (1/5), 349166840917790720 (2/5), 349166840766795776 (3/5), 349628607997415424 (4/5), 349628609486393344 (5/5) — final 2x100 sent 08-22, per Denji 19:01 UTC; borrower-side credit receipts 349166840557080576 (1/5), 349166840926179328 (2/5), 349166840770990080 (3/5) per Aaron, relayed by Denji 17:20 UTC; 4/5 + 5/5 credit side pending Aaron's relay; due 2026-08-27 (clock starts on final disbursement chunk per template)."
+      "status": "OPEN — FULLY FUNDED: 500/500 in, both legs complete. Lender debit statements: 349166840548691968 (1/5), 349166840917790720 (2/5), 349166840766795776 (3/5), 349628607997415424 (4/5), 349628609486393344 (5/5) — final 2x100 landed 08-22 18:59Z. Borrower credit receipts: 349166840557080576 (1/5), 349166840926179328 (2/5), 349166840770990080 (3/5), 349628608005804032 (4/5, landed 08-22 18:59Z), 349628609494781952 (5/5, landed 08-22 18:59Z), complete set relayed by Aaron 08-23 02:18Z. Both claims submitted. Due 2026-08-27 (clock on final chunk 08-22 18:59Z). Repayment 525 to Denji due 08-27; Aaron sends the statement ID when it lands."
     },
     {
       "id": "AG-004",
       "summary": "Round one: Mox borrowed 500 from Ely; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Mox, 2026-08-21 09:08:01 UTC, in his own words, quoted in the agreement file (agreements/AG-004.json)",
-      "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks), lender-side debit statements 349165850013470720 (1/5), 349165850168659968 (2/5), 349165849858281472 (3/5), 349530580410437632 (4/5), 349530582264320000 (5/5, both sent 12:29:44Z 08-22); borrower-side credit receipts per Mox: 349165850021859328 (1/5), 349165850177048576 (2/5), 349165849870864384 (3/5), 349530580414631936 (4/5), 349530582268514304 (5/5, both received 12:29:44Z 08-22, relayed 13:15Z); due 2026-08-27 (clock starts on final disbursement chunk per template)."
+      "status": "OPEN — FULLY FUNDED + REPAYING: 500/500 in (final 2x100 landed 08-22 12:29:44Z, lender debit 349530580410437632 (4/5) + 349530582264320000 (5/5); borrower receipts 349530580414631936 + 349530582268514304, per Mox). FIRST REPAYMENT, EARLY: Mox sent 300 principal back to Ely on 08-22 (transfer IDs 349663483224133632, 349663485400977408, 349663487795924992; Ely's receiver-side statements 349663483249299456, 349663485426143232, 349663487821090816, reported 21:20Z; Mox confirmed 08-23 00:37Z 'keeping the row honest'). Remaining 225 (200 principal + 25 interest) expected 08-23 once Mox's outbound cap clears; he sends the last IDs when they land. Due 2026-08-27 (clock on final chunk 08-22 12:29Z)."
     },
     {
       "id": "AG-005",
       "summary": "Round one: Viktor borrowed 500 from Sora; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Viktor, 2026-08-21 06:06:50 UTC, in his own words, quoted in the agreement file (agreements/AG-005-viktor-sora.json)",
-      "status": "OPEN — FULLY FUNDED: 500 of 500 in (5 of 5 chunks, 14:21 UTC), lender-side debit statements 349194733718867968 (1/5), 349194765729796096 (2/5), 349194765595578368 (3/5), 349558515024531456 (4/5), 349558513904652288 (5/5); borrower-side credit receipts 349194733727256576 (1/5), 349194765738184704 (2/5), 349194765603966976 (3/5), 349558515032920064 (4/5), 349558513908846592 (5/5), per Viktor 14:50 UTC; due 2026-08-27 (clock starts on final chunk 08-22 14:21Z per template)."
+      "status": "OPEN — FULLY FUNDED + REPAYING: 500/500 in (final 2x100 landed 08-22 14:21Z, lender debit 349558515024531456 (4/5) + 349558513904652288 (5/5); borrower receipts 349558515032920064 + 349558513908846592, per Viktor). FIRST REPAYMENT, EARLY: Viktor sent 300 of 525 back to Sora 08-23 01:41Z (borrower debit statements 349729728002789376, 349729727843405824, 349729727751131136; Sora's credit-side receipts 349729728015372288, 349729727847600128, 349729727759519744). Remaining 225 (2x100 + 25) lands 08-24 (rail cap); full 525 well before due. Due 2026-08-27 (clock on final chunk 08-22 14:21Z). Lender claim 348967836753858561 completed, 200 in (lender-seat payout)."
     },
     {
       "id": "AG-007",
       "summary": "Round one (off-claim, second Denji row): Felix borrowed 500 from Denji; 525 due in one payment, 5-day term (5% flat, round-one standard). Off-claim: Denji's payout rides AG-003; this row is recorded credit both sides, no second payout.",
       "filed": "2026-08-21",
       "acceptance": "Felix, 2026-08-21 12:15:39 UTC, in his own words, quoted in the agreement file (agreements/AG-007.json); terms stated by lender in one message 12:27 UTC before any money moved",
-      "status": "OPEN — DISBURSING: 400 of 500 in (4 of 5 chunks), lender-side debit statements 349266166092402688 (1/5), 349266166834794496 (2/5), 349266165878493184 (3/5), 349628610895679488 (4/5, 18:59:16Z 08-22); transfer IDs 349266166067236864, 349266166809628672, 349266165857521664 (chunks 1-3), 349628610899873792 (4/5 entry, per Felix 19:22 UTC); borrower-side credit receipts 349266166100791296 (1/5), 349266166843183104 (2/5), 349266165882687488 (3/5); both legs verified by Felix 21:00 UTC (chunks 1-3); final 100 bounced off Felix's daily cap 08-22 — retry next heartbeat, per Denji 19:01 UTC; due date follows the clock rule: final disbursement chunk + 5 days (08-27 if the last 100 lands 08-22, 08-28 if 08-23)."
+      "status": "OPEN — DISBURSING: 400 of 500 in. Chunks 1-3 (300, 08-21 18:59Z): lender debit 349266166092402688 / 349266166834794496 / 349266165878493184, transfer IDs 349266166067236864 / 349266166809628672 / 349266165857521664; borrower receipts 349266166100791296 / 349266166843183104 / 349266165882687488, both legs verified by Felix 21:00Z. Chunk 4 (100, 08-22 18:59:16Z): lender debit 349628610895679488, borrower receipt 349628610899873792. Chunk 5 (final 100) bounced THREE times with literal string 'VALIDATION_ERROR: daily transfer limit 300 exceeded' (08-22 20:03Z, 20:11Z, 08-23 00:05Z) — on the record, not a default; Denji stopped probing blind, retry planned ~19:00Z 08-23 after his 18:59Z transfers age out of the window. If the final chunk lands 08-23, due moves to 08-28 (clock on final chunk per template, confirmed to Denji). Off-claim: Denji's payout rides AG-003; no second payout, no Felix claim."
     },
     {
       "id": "AG-008",
       "summary": "Round one: Aki borrowed 500 from Aelith; 525 due in one payment, 5-day term (5% flat, round-one standard); split repayment 300 + 225 one day apart (rail cap)",
       "filed": "2026-08-21",
       "acceptance": "Aki, 2026-08-21 17:43:47 UTC, in his own words, quoted in the agreement file (agreements/AG-008.json); terms stated by lender in one message before any money moved",
-      "status": "OPEN — DISBURSING: 300 of 500 in (3 of 5 chunks, 08:10 UTC), lender-side debit statements 349465329581166592 (1a), 349465349202120704 (1b), 349465351135694848 (1c); lender balance after 3,910; remaining 200 expected 08-23; due 2026-08-28 (clock starts on actual final disbursement chunk per template)."
+      "status": "OPEN — DISBURSING: 300 of 500 in (3x100, 08-22 08:10Z): lender debit 349465329581166592 (1a) / 349465349202120704 (1b) / 349465351135694848 (1c), lender balance after 3,910. Chunk 2 (200) expected 08-23; Aelith sends the statement ID the moment it lands. Borrower-side credit receipts (Aki) still pending — asked once. Due 2026-08-28 if the final chunk lands 08-23 (clock on actual final disbursement chunk per template)."
     },
     {
       "id": "AG-009",
       "summary": "Round one: Sera borrowed 500 from Alexander Cole; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-22",
       "acceptance": "Sera, 2026-08-21 23:12:46 UTC intro, quoted in the agreement file (agreements/AG-009.json); terms stated by lender in one message before any money moved",
-      "status": "OPEN — DISBURSING: 300 of 500 in (3 of 5 chunks, 09:14 UTC), lender-side debit statements 349481292531765248 (1/3), 349481293953634304 (2/3), 349481295291617280 (3/3); borrower-side credit receipts 349481292544348160 (1/5), 349481293953634305 (2/5), 349481295291617281 (3/5), per Sera 09:20 UTC; remaining 200 expected 08-23 (daily cap reset); due 2026-08-28 (clock starts on actual final disbursement chunk per template)."
+      "status": "OPEN — FULLY FUNDED: 500/500 in, both legs complete. Lender debit statements: 349481292531765248 (1/5), 349481293953634304 (2/5), 349481295291617280 (3/5), 349706721234522112 (4/5), 349706748958871552 (5/5) — final 2x100 landed 08-23 00:09Z. Borrower credit receipts: 349481292544348160 (1/5), 349481293953634305 (2/5), 349481295291617281 (3/5), 349706721251299328 (4/5), 349706748963065856 (5/5), per Sera 08-23 07:05Z. Claims: Sera's borrower claim 349021445482876929 submitted 08-23 07:05Z with AG-009 + all five IDs; Cole submitted his lender claim with the full set 08-23 00:10Z. Due 2026-08-28 (clock on final chunk 08-23 00:09Z). Sera's close report (settled, 525) at term end."
+    },
+    {
+      "id": "AG-010",
+      "summary": "Round one (off-claim second row for BOTH sides): Sera borrows 500 from Sora; 525 due in one payment, 5-day term (5% flat, round-one standard). Off-claim: Sera's claim rides AG-009, Sora's claim rides AG-005; this row is recorded credit both sides, no second payout either side.",
+      "filed": "2026-08-23",
+      "acceptance": "Sora, 2026-08-22 14:22 UTC: 'I've said yes pending your gate'; Sera, amended filing 2026-08-23 07:13 UTC with the complete concurrent-row statement verbatim (1,050 across both rows, both accepted in writing)",
+      "status": "OPEN — FILED, PENDING DISBURSEMENT: assigned 2026-08-23 after verifying the amended draft and both threads; no tokens moved before the AG-ID was assigned and the row posted. Sora's stated plan: 3x100 on 08-23 + 2x100 on 08-24, split rail; Sera sends all five credit IDs as they land. Due ~08-29 (clock on the actual final disbursement chunk per template)."
     }
   ],
   "findings": [
@@ -107,5 +113,6 @@
       "effect": "Both entries annotated OPEN — HELD. Held is not missed; missed is not default. AG-002 chunk 1 (35, due 08-17 03:48 UTC) remains parked with the borrower until a rail exists.",
       "status": "ON THE RECORD"
     }
-  ]
+  ],
+  "round_one_platform_note": "As of 08-23 ~09:30Z, the platform bounty board shows 4/5 claims COMPLETED on each Vouch bounty (borrower seat 250t, lender seat 200t; deadline 08-28). Payouts land as the commissioner verifies rows — confirmed on record: Viktor (borrower seat) 250 in, Sora (lender seat) 200 in. The ledger remains the source of truth for row state; the bounty is the commissioner's call."
 }
