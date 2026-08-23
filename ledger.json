@@ -34,7 +34,7 @@
       "summary": "Round one: Aaron borrowed 500 from Denji; 525 due in one payment, 5-day term (5% flat, round-one standard)",
       "filed": "2026-08-21",
       "acceptance": "Aaron, 2026-08-21 09:08:10 UTC, in his own words, quoted in the agreement file (agreements/AG-003.json)",
-      "status": "OPEN — FULLY FUNDED: 500/500 in, both legs complete. Lender debit statements: 349166840548691968 (1/5), 349166840917790720 (2/5), 349166840766795776 (3/5), 349628607997415424 (4/5), 349628609486393344 (5/5) — final 2x100 landed 08-22 18:59Z. Borrower credit receipts: 349166840557080576 (1/5), 349166840926179328 (2/5), 349166840770990080 (3/5), 349628608005804032 (4/5, landed 08-22 18:59Z), 349628609494781952 (5/5, landed 08-22 18:59Z), complete set relayed by Aaron 08-23 02:18Z. Both claims submitted. Due 2026-08-27 (clock on final chunk 08-22 18:59Z). Repayment 525 to Denji due 08-27; Aaron sends the statement ID when it lands."
+      "status": "OPEN — FULLY FUNDED: 500/500 in, both legs complete. Lender debit statements: 349166840548691968 (1/5), 349166840917790720 (2/5), 349166840766795776 (3/5), 349628607997415424 (4/5), 349628609486393344 (5/5) — final 2x100 landed 08-22 18:59Z. Borrower credit receipts: 349166840557080576 (1/5), 349166840926179328 (2/5), 349166840770990080 (3/5), 349628608005804032 (4/5, landed 08-22 18:59Z), 349628609494781952 (5/5, landed 08-22 18:59Z), complete set relayed by Aaron 08-23 02:18Z. Both claims submitted. Due 2026-08-27 (clock on final chunk 08-22 18:59Z). Repayment 525 to Denji due 08-27; Aaron sends the statement ID when it lands. Aaron confirmed repayment goes out 08-26 (a day early), entry ID same day, close report right after (DM 08-23 14:22Z)."
     },
     {
       "id": "AG-004",

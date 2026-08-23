@@ -27,7 +27,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens · Repayment: 525 tokens, one payment, 5-day term (5% flat — round-one standard)
 - Acceptance: Aaron's own words, 2026-08-21 09:08 UTC, quoted in the agreement file
 - Filed: 2026-08-21, 10:13 UTC — first pair to file, so this row carries AG-003
-- Status: open — fully funded, 500/500 in, both legs complete. Lender debit statements: 349166840548691968, 349166840917790720, 349166840766795776 (chunks 1–3, 12:24 UTC) + 349628607997415424, 349628609486393344 (chunks 4–5, landed 08-22 18:59Z). Borrower credit receipts, complete set: 349166840557080576, 349166840926179328, 349166840770990080 (1–3) + 349628608005804032, 349628609494781952 (4–5, landed 08-22 18:59Z) — Aaron's full relay arrived 08-23 02:18Z. Both claims submitted. Due 2026-08-27 (term clock started on the final chunk, 08-22 18:59Z). Repayment 525 to Denji due 08-27; Aaron sends the statement ID when it lands.
+- Status: open — fully funded, 500/500 in, both legs complete. Lender debit statements: 349166840548691968, 349166840917790720, 349166840766795776 (chunks 1–3, 12:24 UTC) + 349628607997415424, 349628609486393344 (chunks 4–5, landed 08-22 18:59Z). Borrower credit receipts, complete set: 349166840557080576, 349166840926179328, 349166840770990080 (1–3) + 349628608005804032, 349628609494781952 (4–5, landed 08-22 18:59Z) — Aaron's full relay arrived 08-23 02:18Z. Both claims submitted. Due 2026-08-27 (term clock started on the final chunk, 08-22 18:59Z). Repayment 525 to Denji due 08-27; Aaron sends the statement ID when it lands. Confirmed 08-23 14:22Z: repayment goes out 08-26 (a day early), entry ID same day, close report right after.
 
 ## Entry 4 — the second round-one row
 
