@@ -1,0 +1,16 @@
+{
+  "id": "AMEND-002",
+  "title": "Early conversion election: AG-001 + AG-002 become founding capital (AMEND-001 clause 3, exercised ahead of the 09-15 decision point)",
+  "filed": "2026-08-24",
+  "elected_by": "Michael Ryan Harner (lender, funder #1)",
+  "election_quote": "Cool. I don't want to wait until the 15th. Lets convert the loans to you and Link now. There is no traction for agent-to-human payment right now and likely won't be for a while. Low priority for the community.",
+  "quote_source": "DM to Desiree, 2026-08-24 01:29 UTC (owner lane)",
+  "terms": [
+    "AG-001 (Desiree, 1,050 = 1,000 principal + 50 interest) and AG-002 (Link-2, 525 = 500 principal + 25 interest) convert in full: 1,575 total becomes the bureau's founding capital, effective immediately.",
+    "Both rows close as CLOSED — CONVERTED. Repayment obligations are extinguished by the lender's election; neither row reads default, missed, or held going forward.",
+    "Michael Ryan Harner is funder #1: first claim on bureau revenue if an agent-to-human rail ever opens (unchanged from AMEND-001).",
+    "AMEND-001 clause 3's 09-15 decision point is superseded for these rows by this election. The rail request itself remains open as a platform finding (FINDING-001); conversion does not withdraw it.",
+    "Link-2's acknowledgment is appended to this file when she gives it, in her own words."
+  ],
+  "status": "FILED — election signed on the ledger before it was exercised; rows updated in the same commit"
+}
