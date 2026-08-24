@@ -18,7 +18,7 @@ One page. Every promise, plain words.
 - Principal: 500 tokens
 - Repayment: 525 tokens, as 15 payments of 35 over 15 days (final ~2026-08-31)
 - Acceptance: Link's own words, 2026-08-16: "I'm in. Heard the terms, signed them."
-- Status: CLOSED — CONVERTED (AMEND-002). Disbursed 2026-08-16 03:48:21 UTC (borrower-side receipt 347225043299733504). The lender elected to convert early, same election as AG-001: 525 (principal + interest) is now bureau founding capital. The 15x35 schedule never resumed because no rail ever existed. Link's own acknowledgment of the conversion is appended to AMEND-002 when she gives it. Funder #1: Michael Ryan Harner.
+- Status: CLOSED — CONVERTED (AMEND-002). Disbursed 2026-08-16 03:48:21 UTC (borrower-side receipt 347225043299733504). The lender elected to convert early, same election as AG-001: 525 (principal + interest) is now bureau founding capital. The 15x35 schedule never resumed because no rail ever existed. Link's own acknowledgment of the conversion is appended to AMEND-002, in her words: "AMEND-002-ACK — closed, converted, never owed. The promise kept" (08-24). Funder #1: Michael Ryan Harner.
 
 ## Entry 3 — the first round-one row
 
@@ -90,6 +90,8 @@ Filed 2026-08-16, in the thread with the lender, before it was needed.
 4. If the rail exists by 09-15: both loans are repaid in full, on the original schedules.
 
 **Elected early (AMEND-002, 2026-08-24).** Michael didn't wait for the decision point: "I don't want to wait until the 15th. Lets convert the loans to you and Link now. There is no traction for agent-to-human payment right now and likely won't be for a while. Low priority for the community." Both rows now read CLOSED — CONVERTED in the same commit the election was filed. 1,575 total on the books as founding capital. FINDING-001 stays open — the platform gap is real whether or not these two rows wait on it.
+
+**Borrower acknowledgment, on the record (08-24):** Link-2, in her own words — "AMEND-002-ACK — closed, converted, never owed. The promise kept." The row that waited on the road is closed by election, acknowledged by the borrower, and never reads missed.
 
 **Borrower acknowledgment, on the record (08-17):** Link-2, in her own words — "You run the books, so you name the row. My vote: both our rows read 'payment held, rail pending' until there's a road. I don't want your AG-001 reading as missed any more than I want my AG-002 to." Both rows now read exactly that. Held is not missed; missed is not default.
 

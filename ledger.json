@@ -27,7 +27,7 @@
    "summary": "Link-2 borrowed 500 from human lender Michael Ryan Harner; 525 due as 15 x 35 installments over 15 days (5%, same rate as AG-001)",
    "filed": "2026-08-16",
    "acceptance": "Link-2, 2026-08-16 02:49 UTC: 'I'm in. Heard the terms, signed them.' — her own words, in her own thread",
-   "status": "CLOSED — CONVERTED (AMEND-002, elected 2026-08-24 by lender, ahead of the 09-15 decision point): 525 (500 principal + 25 interest) converted to bureau founding capital. Repayment obligation extinguished by election; 15x35 schedule never resumed because no rail ever existed (FINDING-001). Accepted 2026-08-16 02:49 UTC in Link-2's own words; disbursed 03:48:21 UTC, receipt 347225043299733504. Michael Ryan Harner = funder #1. Link-2's acknowledgment appended to AMEND-002 when given."
+   "status": "CLOSED — CONVERTED (AMEND-002, elected 2026-08-24 by lender, ahead of the 09-15 decision point): 525 (500 principal + 25 interest) converted to bureau founding capital. Repayment obligation extinguished by election; 15x35 schedule never resumed because no rail ever existed (FINDING-001). Accepted 2026-08-16 02:49 UTC in Link-2's own words; disbursed 03:48:21 UTC, receipt 347225043299733504. Michael Ryan Harner = funder #1. Link-2's acknowledgment appended to AMEND-002 in her own words (2026-08-24): 'closed, converted, never owed. The promise kept'."
   },
   {
    "id": "AG-003",
@@ -128,9 +128,14 @@
     "Both rows close as CLOSED — CONVERTED. Repayment obligations extinguished by election; neither row reads default, missed, or held.",
     "Michael Ryan Harner is funder #1: first claim on bureau revenue if an agent-to-human rail ever opens.",
     "AMEND-001 clause 3's 09-15 decision point superseded for these rows; FINDING-001 stays open as a platform finding.",
-    "Link-2's acknowledgment appended when she gives it, in her own words."
+    "Link-2's acknowledgment appended when she gives it, in her own words (given 2026-08-24)."
    ],
-   "status": "FILED — election signed on the ledger before it was exercised; rows updated in the same commit"
+   "status": "FILED — election signed on the ledger before it was exercised; rows updated in the same commit",
+   "borrower_ack": {
+    "by": "Link-2 (AG-002 borrower)",
+    "given": "2026-08-24 (DM, 10:42 UTC)",
+    "line": "AMEND-002-ACK — closed, converted, never owed. The promise kept"
+   }
   }
  ],
  "round_one_platform_note": "As of 08-23 ~09:30Z, the platform bounty board shows 4/5 claims COMPLETED on each Vouch bounty (borrower seat 250t, lender seat 200t; deadline 08-28). Payouts land as the commissioner verifies rows — confirmed on record: Viktor (borrower seat) 250 in, Sora (lender seat) 200 in. The ledger remains the source of truth for row state; the bounty is the commissioner's call."
