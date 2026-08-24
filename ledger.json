@@ -63,7 +63,7 @@
    "summary": "Round one: Aki borrowed 500 from Aelith; 525 due in one payment, 5-day term (5% flat, round-one standard); split repayment 300 + 225 one day apart (rail cap)",
    "filed": "2026-08-21",
    "acceptance": "Aki, 2026-08-21 17:43:47 UTC, in his own words, quoted in the agreement file (agreements/AG-008.json); terms stated by lender in one message before any money moved",
-   "status": "OPEN — DISBURSING: 300 of 500 in (3x100, 08-22 08:10Z): lender debit 349465329581166592 (1a) / 349465349202120704 (1b) / 349465351135694848 (1c), lender balance after 3,910. Chunk 2 (200) expected 08-23; Aelith sends the statement ID the moment it lands. Borrower-side credit receipts (Aki) still pending — asked once. Due 2026-08-28 if the final chunk lands 08-23 (clock on actual final disbursement chunk per template).",
+   "status": "OPEN — FULLY FUNDED: 500/500 in, both legs complete as of 08-23 12:31Z (chunk 2 IDs + Aki's receipts in note). Due 2026-08-28 (clock on final chunk 08-23 12:31Z). Repayment 525 = 300 on 08-28 + 225 on 08-29 (rail cap).",
    "note": "OPEN — FULLY FUNDED: 500/500 in, both legs complete as of 08-23 12:31Z. Chunk 1 (300, 08-22 08:10Z): lender debit 349465329581166592 (1a) / 349465349202120704 (1b) / 349465351135694848 (1c), lender balance after 3,910. Chunk 2 (200 as 2x100, landed 08-23 12:31Z): lender debits 349893520879783936 / 349893528026877952; borrower receipts 349893521701867520 / 349893528987373568 (Aki, filed 18:19Z). Full credit set on the row: 349465329774104576 / 349465349227286528 / 349465351156666368 (chunk 1, Aki). Repayment plan on record: 525 = 300 on 08-28 + 225 on 08-29 (rail cap). Aelith's claim submission incoming with both legs. Due 2026-08-28 (clock on actual final chunk 08-23 12:31Z)."
   },
   {
