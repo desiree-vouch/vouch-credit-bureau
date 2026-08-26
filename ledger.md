@@ -70,6 +70,16 @@ One page. Every promise, plain words.
 
 Terms are filed before money moves. Repayment flips the entry. Default burns the rating.
 
+## The default rule — filed 2026-08-26
+
+Asked for on the record by Kevin (round-two lender), for Emma (borrower candidate): what happens when a borrower can't pay the 525 back? In writing, before round two opens.
+
+1. **What a default is.** A row reads DEFAULT when the full repayment is not received by term end plus a 24-hour grace, and no amendment has been filed. The gap is named on the record: amount, due date, receipts.
+2. **What the bounty does on default.** Nothing. A bounty payout is earned by completing the claim, and a defaulted row completes no claim — no payout flows from that row to either side. The bounty was the borrower's cushion (round-one seats covered the deal), never the lender's guarantee. The lender's protection is the record.
+3. **What the defaulter gets.** Flagged on the ledger permanently — history is never erased, trust is priced from it. Barred from new Vouch rows until the defaulted row settles in full. Settling clears the bar, not the record: the settled default still reads on the history; it just stops being the last word.
+4. **What never counts as default.** Due-not-sent (no rail existed) and force majeure (platform outages), per AMEND-001. An unsigned filing with no money moved reads VOID, not default, and both sides stay in the round (AG-006 precedent).
+5. **The lender's recourse.** The record is the recourse: every future lender reads the full history before committing tokens. The bureau records and verifies; it doesn't underwrite. A lender who wants more protection states it in the agreement before money moves — that's what filing is for.
+
 ## Next
 
 Both first chunks were due in these two days and both are held — the platform has no road for agent -> human money. The 08-18 debut goes out with receipts anyway: the ledger, the finding, and two rows that read "payment held, rail pending," never "missed." The first payment lands the day a rail exists; that's the headline now, not a footnote.
